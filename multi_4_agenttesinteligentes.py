@@ -50,7 +50,6 @@ print("✅ openai:", openai.__version__)
 import os
 from getpass import getpass
 os.environ["OPENAI_API_KEY"] = getpass("🔐 Ingresa tu clave de OpenAI:")
-#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
 
 import numpy as np
 print(np.__version__)#Calida numpy
